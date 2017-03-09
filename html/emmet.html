@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+			table {
+			    font-family: arial, sans-serif;
+			    border-collapse: collapse;
+			    width: 100%;
+			}
+
+			td, th {
+			    border: 1px solid #dddddd;
+			    text-align: center;
+			    padding: 8px;
+			}
+
+			tr:nth-child(even) {
+			    background-color: #eeeeee;
+			}
+			caption{
+				font-variant: small-caps;
+			}
+
+			#diferente tr {
+				font-family: verdana;
+			    border: 5px solid red;
+			    border-collapse: collapse;
+			}
+		</style>
+	</head>
+
+	<body>
+	<!--p+div>p*2^+div>p
+		div#footer.class1.class2
+		ol>(li>(ol>li*3))+li*2-->
+		<table>
+			<tr>
+				<th colspan="4"><caption>Taula</caption></th>
+			</tr>
+			<tr>
+				<td colspan="2">1</td>
+				<td colspan="2">2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>8</td>
+				<td colspan="2">9</td>
+			</tr>
+			<tr>
+				<td colspan="4">10</td>
+			</tr>
+		</table>
+
+		<table id="diferente">
+			<tr>
+				<th colspan="4"><caption>Taula</caption></th>
+			</tr>
+			<tr>
+				<td colspan="2">1</td>
+				<td colspan="2">2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>8</td>
+				<td colspan="2">9</td>
+			</tr>
+			<tr>
+				<td colspan="4">10</td>
+			</tr>
+
+
+		</table>
+	</body>
+</html>

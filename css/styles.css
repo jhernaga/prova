@@ -1,0 +1,16 @@
+div.cities {
+	background-color: black;
+	color: white;
+	margin: 20px 0 20px 0;
+	padding: 20px;
+} 
+span.nombre{
+	/*font-style: italic;*/
+	margin: 2px;
+	background-color: white;
+	color:black;
+	border-radius: 5px;
+}
+a{
+	text-decoration: none;
+}
